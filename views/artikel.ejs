@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galaxy Blogspot</title>
+  </head>
+
+  <body>
+    <% include navbar/navbarArtikel %>
+
+    <div class="container post">
+      <div class="row">
+        <div class="col-md-6 post-title">
+          <h1>Galaxy Blogspot</h1>
+          <p class="author">
+            <strong>Artikel</strong>
+            <span class="text-muted"
+              ><script>
+                document.write(date);
+              </script></span
+            >
+          </p>
+        </div>
+        <div class="col-md-6 col-md-offset-0 post-body">
+          <p>
+            Berikut adalah daftar-daftar artikel blogspot yang telah dibuat:
+          </p>
+
+          <figure>
+            <a href="/artikel1"
+              ><img
+                class="img-thumbnail"
+                alt="tata surya"
+                src="assets/img/solarSystem.png"
+            /></a>
+            <a href="/artikel1"
+              ><strong>Artikel 1 - Apa sih Tata Surya?</strong></a
+            >
+          </figure>
+          <br />
+
+          <figure>
+            <a href="/artikel2"
+              ><img
+                class="img-thumbnail"
+                alt="planet baruu"
+                src="assets/img/planet9.png"
+            /></a>
+            <a href="/artikel2"><strong>Artikel 2 - Planet Baru?</strong></a>
+          </figure>
+          <br />
+
+          <figure>
+            <a href="/artikel3"
+              ><img
+                class="img-thumbnail"
+                alt="fakta tata surya"
+                src="assets/img/faktasurya.jpg"
+            /></a>
+            <a href="/artikel3"
+              ><strong>Artikel 3 - Fakta Tata Surya</strong></a
+            >
+          </figure>
+          <br />
+
+          <figure>
+            <a href="/artikel4"
+              ><img
+                class="img-thumbnail"
+                alt="NASA yurod"
+                src="assets/img/mars.jpg"
+            /></a>
+            <a href="/artikel4"><strong>Artikel 4 - Oasis di Mars!</strong></a>
+          </figure>
+
+          <br />
+        </div>
+      </div>
+    </div>
+    <% include footer/footer %>
+  </body>
+</html>

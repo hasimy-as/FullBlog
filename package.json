@@ -1,7 +1,7 @@
 {
   "name": "fullblog",
   "version": "1.0.0",
-  "description": "A blog website, using Semantic, and Node.js",
+  "description": "Website bertema blog, dengan Semantic dan Node.js",
   "main": "index.js",
   "scripts": {
     "start": "nodemon -r esm index.js"
@@ -17,9 +17,7 @@
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
     "esm": "^3.2.25",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
+    "express": "~4.16.1"
   },
   "bugs": {
     "url": "https://github.com/hasimy-as/FullBlog/issues"

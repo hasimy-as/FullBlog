@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galaxy Blogspot</title>
   </head>
+
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <% include navbar/navbar %>
+    <div class="container post">
+      <div class="row">
+        <div class="col-md-6 post-title">
+          <h1>Galaxy Blogspot</h1>
+          <p class="author">
+            <strong>Semua tentang alam semesta.</strong>
+          </p>
+        </div>
+        <div class="col-md-6 col-md-offset-0 post-body">
+          <p>
+            Blogspot ini menuliskan tentang segala hal yang ada di alam semesta.
+            Lebih terarahkan kepada sistem tata surya kita, di galaksi Bimasakti
+            ini.
+          </p>
+          <p>
+            Silahkan mempelajari lebih lanjut tentang alam semesta, untuk
+            meningkatkan ilmu astronomi kita! Seberapa penting sih ilmu
+            astronomi itu? Tentunya sangat penting! Karena semakin kita
+            mengetahui ilmu astronomi, semakin pula kita diklasifikasi sebagai
+            ilmuwan alam semesta!
+          </p>
+          <p>
+            Alam semesta (disebut pula jagat raya atau universal) merupakan
+            istilah yang digunakan untuk menjelaskan seluruh ruang waktu kontinu
+            tempat kita berada, dengan energi dan materi yang dimilikinya pada
+            pertengahan pertama abad ke-20. Usaha untuk memahami pengertian alam
+            semesta dalam lingkup ini pada skala terbesar yang memungkinkan, ada
+            pada kosmologi, ilmu pengetahuan yang berkembang dari fisika dan
+            astronomi.
+          </p>
+          <br />
+          <figure>
+            <img class="img-thumbnail" src="assets/img/galaksi.jpg" />
+            <figcaption>
+              Gambar beberapa galaksi terlihat dengan teknologi terbaru.
+            </figcaption>
+          </figure>
+          <br />
+          <p>
+            Alam semesta fisik didefinisikan sebagai keseluruhan ruang dan waktu
+            (secara kolektif disebut ruang-waktu) dan isinya. Isi tersebut
+            terdiri dari semua energi dalam berbagai bentuk, termasuk radiasi
+            elektromagnetik dan materi. Alam semesta juga mencakup hukum-hukum
+            fisika yang memengaruhi energi dan materi, seperti hukum kekekalan,
+            mekanika klasik, dan relativitas.
+          </p>
+        </div>
+        <br />
+      </div>
+    </div>
+    <% include footer/footer %>
   </body>
 </html>
